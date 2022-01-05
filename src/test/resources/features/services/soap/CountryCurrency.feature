@@ -1,10 +1,10 @@
 Feature: ISO code y nombre de la Divisa
-  Yo com Usuario  de un servicio de busquda de ISO code y nombre de la moneda
-  necesito validar que la funcionalidad busqueda por código de pais para el llenado
+  Yo como Usuario  de un servicio de búsqueda de ISO code y nombre de la moneda
+  necesito validar que la funcionalidad búsqueda por código de país para el llenado
   de datos que se requieren para validar el tipo de Divisa.
 
   @searchISOCode
-  Scenario: busqueda ISO code de la vivisa
+  Scenario: busqueda ISO code de la divisa
     Given que el usuario quiera buscar el codigo "CO"
     When el usuario hace la petición de busqueda la divisa requerida
     Then el ususario debería obtener como iso divisa "COP"
